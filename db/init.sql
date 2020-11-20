@@ -1,3 +1,7 @@
+CREATE DATABASE playersData;
+use playersData;
+
+
 /* CREATE TABLE */
 CREATE TABLE IF NOT EXISTS tblPlayersImport(
   Name VARCHAR(100),
