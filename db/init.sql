@@ -6219,7 +6219,7 @@ INSERT INTO tblPlayersImport(
 VALUES
   (
     'Kirk Saarloos', 'CIN', 'Starting Pitcher',
-    72,, 27.77
+    72,175, 27.77
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
