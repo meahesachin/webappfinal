@@ -4,17 +4,19 @@ use playersData;
 
 /* CREATE TABLE */
 CREATE TABLE IF NOT EXISTS tblPlayersImport(
-  Name VARCHAR(100),
+  id int AUTO_INCREMENT,
+  fldName VARCHAR(100),
   fldTeam VARCHAR(100),
   fldPosition VARCHAR(100),
   fldHeight DECIMAL(10, 2),
   fldWeight DECIMAL(10, 2),
-  fldAge DECIMAL(10, 2)
+  fldAge DECIMAL(10, 2),
+  PRIMARY KEY (id)
 );
 
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -28,7 +30,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -42,7 +44,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -56,7 +58,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -70,7 +72,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -84,7 +86,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -98,7 +100,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -112,7 +114,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -126,7 +128,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -140,7 +142,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -154,7 +156,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -168,7 +170,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -182,7 +184,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -196,7 +198,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -210,7 +212,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -224,7 +226,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -238,7 +240,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -252,7 +254,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -266,7 +268,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -280,7 +282,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -294,7 +296,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -308,7 +310,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -322,7 +324,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -336,7 +338,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -350,7 +352,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -364,7 +366,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -378,7 +380,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -392,7 +394,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -406,7 +408,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -420,7 +422,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -434,7 +436,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -448,7 +450,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -462,7 +464,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -476,7 +478,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -490,7 +492,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -504,7 +506,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -518,7 +520,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -532,7 +534,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -546,7 +548,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -560,7 +562,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -574,7 +576,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -588,7 +590,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -602,7 +604,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -616,7 +618,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -630,7 +632,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -644,7 +646,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -658,7 +660,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -672,7 +674,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -686,7 +688,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -700,7 +702,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -714,7 +716,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -728,7 +730,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -742,7 +744,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -756,7 +758,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -770,7 +772,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -784,7 +786,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -798,7 +800,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -812,7 +814,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -826,7 +828,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -840,7 +842,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -854,7 +856,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -868,7 +870,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -882,7 +884,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -896,7 +898,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -910,7 +912,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -924,7 +926,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -938,7 +940,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -952,7 +954,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -966,7 +968,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -980,7 +982,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -994,7 +996,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1008,7 +1010,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1022,7 +1024,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1036,7 +1038,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1050,7 +1052,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1064,7 +1066,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1078,7 +1080,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1092,7 +1094,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1106,7 +1108,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1120,7 +1122,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1134,7 +1136,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1148,7 +1150,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1162,7 +1164,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1176,7 +1178,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1190,7 +1192,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1204,7 +1206,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1218,7 +1220,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1232,7 +1234,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1246,7 +1248,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1260,7 +1262,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1274,7 +1276,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1288,7 +1290,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1302,7 +1304,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1316,7 +1318,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1330,7 +1332,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1344,7 +1346,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1358,7 +1360,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1372,7 +1374,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1386,7 +1388,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1400,7 +1402,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1414,7 +1416,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1428,7 +1430,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1442,7 +1444,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1456,7 +1458,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1470,7 +1472,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1484,7 +1486,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1498,7 +1500,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1512,7 +1514,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1526,7 +1528,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1540,7 +1542,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1554,7 +1556,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1568,7 +1570,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1582,7 +1584,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1596,7 +1598,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1610,7 +1612,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1624,7 +1626,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1638,7 +1640,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1652,7 +1654,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1666,7 +1668,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1680,7 +1682,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1694,7 +1696,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1708,7 +1710,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1722,7 +1724,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1736,7 +1738,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1750,7 +1752,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1764,7 +1766,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1778,7 +1780,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1792,7 +1794,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1806,7 +1808,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1820,7 +1822,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1834,7 +1836,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1848,7 +1850,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1862,7 +1864,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1876,7 +1878,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1890,7 +1892,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1904,7 +1906,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1918,7 +1920,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1932,7 +1934,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1946,7 +1948,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1960,7 +1962,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1974,7 +1976,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -1988,7 +1990,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2002,7 +2004,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2016,7 +2018,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2030,7 +2032,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2044,7 +2046,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2058,7 +2060,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2072,7 +2074,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2086,7 +2088,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2100,7 +2102,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2114,7 +2116,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2128,7 +2130,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2142,7 +2144,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2156,7 +2158,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2170,7 +2172,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2184,7 +2186,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2198,7 +2200,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2212,7 +2214,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2226,7 +2228,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2240,7 +2242,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2254,7 +2256,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2268,7 +2270,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2282,7 +2284,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2296,7 +2298,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2310,7 +2312,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2324,7 +2326,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2338,7 +2340,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2352,7 +2354,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2366,7 +2368,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2380,7 +2382,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2394,7 +2396,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2408,7 +2410,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2422,7 +2424,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2436,7 +2438,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2450,7 +2452,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2464,7 +2466,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2478,7 +2480,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2492,7 +2494,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2506,7 +2508,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2520,7 +2522,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2534,7 +2536,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2548,7 +2550,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2562,7 +2564,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2576,7 +2578,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2590,7 +2592,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2604,7 +2606,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2618,7 +2620,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2632,7 +2634,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2646,7 +2648,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2660,7 +2662,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2674,7 +2676,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2688,7 +2690,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2702,7 +2704,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2716,7 +2718,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2730,7 +2732,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2744,7 +2746,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2758,7 +2760,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2772,7 +2774,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2786,7 +2788,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2800,7 +2802,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2814,7 +2816,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2828,7 +2830,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2842,7 +2844,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2856,7 +2858,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2870,7 +2872,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2884,7 +2886,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2898,7 +2900,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2912,7 +2914,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2926,7 +2928,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2940,7 +2942,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2954,7 +2956,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2968,7 +2970,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2982,7 +2984,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -2996,7 +2998,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3010,7 +3012,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3024,7 +3026,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3038,7 +3040,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3052,7 +3054,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3066,7 +3068,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3080,7 +3082,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3094,7 +3096,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3108,7 +3110,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3122,7 +3124,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3136,7 +3138,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3150,7 +3152,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3164,7 +3166,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3178,7 +3180,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3192,7 +3194,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3206,7 +3208,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3220,7 +3222,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3234,7 +3236,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3248,7 +3250,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3262,7 +3264,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3276,7 +3278,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3290,7 +3292,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3304,7 +3306,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3318,7 +3320,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3332,7 +3334,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3346,7 +3348,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3360,7 +3362,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3374,7 +3376,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3388,7 +3390,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3402,7 +3404,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3416,7 +3418,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3430,7 +3432,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3444,7 +3446,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3458,7 +3460,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3472,7 +3474,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3486,7 +3488,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3500,7 +3502,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3514,7 +3516,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3528,7 +3530,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3542,7 +3544,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3556,7 +3558,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3570,7 +3572,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3584,7 +3586,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3598,7 +3600,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3612,7 +3614,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3626,7 +3628,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3640,7 +3642,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3654,7 +3656,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3668,7 +3670,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3682,7 +3684,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3696,7 +3698,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3710,7 +3712,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3724,7 +3726,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3738,7 +3740,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3752,7 +3754,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3766,7 +3768,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3780,7 +3782,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3794,7 +3796,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3808,7 +3810,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3822,7 +3824,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3836,7 +3838,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3850,7 +3852,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3864,7 +3866,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3878,7 +3880,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3892,7 +3894,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3906,7 +3908,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3920,7 +3922,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3934,7 +3936,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3948,7 +3950,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3962,7 +3964,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3976,7 +3978,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -3990,7 +3992,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4004,7 +4006,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4018,7 +4020,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4032,7 +4034,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4046,7 +4048,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4060,7 +4062,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4074,7 +4076,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4088,7 +4090,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4102,7 +4104,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4116,7 +4118,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4130,7 +4132,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4144,7 +4146,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4158,7 +4160,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4172,7 +4174,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4186,7 +4188,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4200,7 +4202,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4214,7 +4216,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4228,7 +4230,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4242,7 +4244,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4256,7 +4258,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4270,7 +4272,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4284,7 +4286,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4298,7 +4300,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4312,7 +4314,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4326,7 +4328,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4340,7 +4342,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4350,468 +4352,468 @@ INSERT INTO tblPlayersImport(
 VALUES
   (
     'Eric OFlaherty','SEA','Relief Pitcher', 74, 195, 22.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Jon Huber','SEA',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Jon Huber','SEA',
         'Relief Pitcher', 74, 195, 25.65);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Jake Woods','SEA',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Jake Woods','SEA',
         'Relief Pitcher', 73, 190, 25.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Sean Green','SEA',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Sean Green','SEA',
         'Relief Pitcher', 78, 230, 27.86);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Mark Lowe','SEA',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Mark Lowe','SEA',
         'Relief Pitcher', 75, 190, 23.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Josh Paul','TB',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Josh Paul','TB',
         'Catcher', 73, 200, 31.78);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Dioner Navarro',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Dioner Navarro',
         'TB','Catcher', 70, 190, 23.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Shawn Riggans',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Shawn Riggans',
         'TB','Catcher', 74, 190, 26.6);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Ty Wigginton',
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) VALUES( 'Ty Wigginton',
         'TB','First Baseman', 72, 200, 29.39);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
         VALUES( 'Brendan Harris','TB','Second Baseman', 73, 200, 26.51);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
         VALUES( 'Jorge Cantu','TB','Second Baseman', 73, 184, 25.08);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
         VALUES( 'Ben Zobrist','TB','Shortstop', 75, 200, 25.76);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
         VALUES( 'B.J.Upton','TB','Third Baseman', 75, 180, 22.52);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Carl Crawford','TB','Outfielder', 74, 219, 25.57);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Rocco Baldelli','TB','Outfielder', 76, 187, 25.43);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Greg Norton','TB','Outfielder', 73, 200, 34.65);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Elijah Dukes','TB','Outfielder', 74, 220, 22.68);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Delmon Young','TB','Outfielder', 75, 205, 21.46);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jonny Gomes','TB','Designated Hitter', 73, 205, 26.27);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Edwin Jackson','TB','Starting Pitcher', 75, 190, 23.47);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Scott Kazmir','TB','Starting Pitcher', 72, 170, 23.1);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Casey Fossum','TB','Starting Pitcher', 73, 160, 29.14);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jae Seo','TB','Starting Pitcher', 73, 215, 29.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'J.P.Howell','TB','Starting Pitcher', 72, 175, 23.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Tim Corcoran','TB','Starting Pitcher', 74, 205, 28.88);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason Hammel','TB','Starting Pitcher', 78, 200, 24.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'James Shields','TB','Starting Pitcher', 76, 214, 25.19);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Brian Stokes','TB','Starting Pitcher', 73, 200, 27.48);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Juan Salas','TB','Relief Pitcher', 74, 190, 28.31);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jeff Ridgway','TB','Relief Pitcher', 75, 180, 26.54);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ruddy Lugo','TB','Relief Pitcher', 70, 205, 26.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jae - Kuk Ryu','TB','Relief Pitcher', 75, 220, 23.75);
 
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chad Orvella','TB','Relief Pitcher', 71, 190, 26.41);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Dan Miceli','TB','Relief Pitcher', 72, 215, 36.47);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Seth McClung','TB','Relief Pitcher', 78, 235, 26.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jon Switzer','TB','Relief Pitcher', 75, 191, 27.55);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Shawn Camp','TB','Relief Pitcher', 73, 200, 31.28);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Scott Dohmann','TB','Relief Pitcher', 73, 181, 29.04);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason LaRue','KC','Catcher', 71, 200, 32.95);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'John Buck','KC','Catcher', 75, 210, 26.65);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ryan Shealy','KC','First Baseman', 77, 240, 27.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Ross Gload','KC','First Baseman', 72, 185, 30.9);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Esteban German','KC','Second Baseman', 69, 165, 29.09);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mark Grudzielanek','KC','Second Baseman', 73, 190, 36.67);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Angel Sanchez','KC','Second Baseman', 74, 185, 23.44);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Angel Berroa','KC','Shortstop', 72, 175, 29.09);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Andres Blanco','KC','Shortstop', 70, 155, 22.89);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mark Teahen','KC','Third Baseman', 75, 210, 25.48);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Joey Gathright','KC','Outfielder', 70, 170, 25.84);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'David DeJesus','KC','Outfielder', 72, 175, 27.2);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Shane Costa','KC','Outfielder', 72, 220, 25.22);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mitch Maier','KC','Outfielder', 74, 210, 24.67);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Reggie Sanders','KC','Outfielder', 73, 205, 39.25);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Emil Brown','KC','Outfielder', 74, 200, 32.17);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mike Sweeney','KC','Designated Hitter', 75, 225, 33.61);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'John Bale','KC','Starting Pitcher', 76, 205, 32.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Luke Hudson','KC','Starting Pitcher', 75, 195, 29.83);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Scott Elarton','KC','Starting Pitcher', 80, 240, 31.02);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Odalis Perez','KC','Starting Pitcher', 72, 150, 29.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Gil Meche','KC','Starting Pitcher', 75, 200, 28.48);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Neal Musser','KC','Starting Pitcher', 73, 215, 26.51);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Brian Bannister','KC','Starting Pitcher', 74, 202, 26);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Zack Greinke','KC','Starting Pitcher', 74, 200, 23.36);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jorge De La Rosa','KC','Starting Pitcher', 73, 190, 25.9);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Todd Wellemeyer','KC','Relief Pitcher', 75, 205, 28.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jimmy Gobble','KC','Relief Pitcher', 75, 190, 25.62);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joel Peralta','KC','Relief Pitcher', 71, 160, 30.94);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ryan Braun','KC','Relief Pitcher', 73, 215, 26.59);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Joakim Soria','KC','Relief Pitcher', 75, 185, 22.78);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ken Ray','KC','Relief Pitcher', 74, 200, 32.26);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'David Riske','KC','Relief Pitcher', 74, 190, 30.35);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Octavio Dotel','KC','Relief Pitcher', 72, 210, 33.26);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joe Nelson','KC','Relief Pitcher', 74, 185, 32.35);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Gerald Laird','TEX','Catcher', 74, 220, 27.3);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Miguel Ojeda','TEX','Catcher', 74, 190, 32.08);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Guillermo Quiroz','TEX','Catcher', 73, 202, 25.25);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chris Stewart','TEX','Catcher', 76, 205, 25.03);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mark Teixeira','TEX','First Baseman', 75, 220, 26.89);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ian Kinsler','TEX','Second Baseman', 72, 175, 24.69);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joaquin Arias','TEX','Shortstop', 73, 160, 22.44);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Michael Young','TEX','Shortstop', 73, 190, 30.36);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Hank Blalock','TEX','Third Baseman', 73, 200, 26.27);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Marlon Byrd','TEX','Outfielder', 72, 229, 29.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Brad Wilkerson','TEX','Outfielder', 72, 206, 29.75);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Sammy Sosa','TEX','Outfielder', 72, 220, 38.3);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Kenny Lofton','TEX','Outfielder', 72, 180, 39.75);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Frank Catalanotto','TEX','Outfielder', 71, 195, 32.84);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Nelson Cruz','TEX','Outfielder', 75, 175, 26.66);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason Botts','TEX','Designated Hitter', 77, 250, 26.6);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Robinson Tejeda','TEX','Starting Pitcher', 75, 188, 24.94);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'John Rheinecker','TEX','Starting Pitcher', 74, 230, 27.76);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Edinson Volquez','TEX','Starting Pitcher', 73, 190, 23.66);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'A.J.Murray','TEX','Starting Pitcher', 75, 200, 24.96);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Brandon McCarthy','TEX','Starting Pitcher', 79, 190, 23.65);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Vicente Padilla','TEX','Starting Pitcher', 74, 219, 29.42);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Kevin Millwood','TEX','Starting Pitcher', 76, 235, 32.18);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'John Koronka','TEX','Starting Pitcher', 73, 180, 26.66);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Frank Francisco','TEX','Relief Pitcher', 74, 180, 27.47);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Francisco Cruceta','TEX','Relief Pitcher', 74, 180, 25.66);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Akinori Otsuka','TEX','Relief Pitcher', 72, 200, 35.13);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Eric Gagne','TEX','Relief Pitcher', 74, 234, 31.15);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ron Mahay','TEX','Relief Pitcher', 74, 185, 35.67);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joaquin Benoit','TEX','Relief Pitcher', 75, 220, 29.6);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Rick Bauer','TEX','Relief Pitcher', 78, 223, 30.14);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Josh Rupe','TEX','Relief Pitcher', 74, 200, 24.53);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Wes Littleton','TEX','Relief Pitcher', 74, 210, 24.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'C.J.Wilson','TEX','Relief Pitcher', 74, 200, 26.28);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Scott Feldman','TEX','Relief Pitcher', 77, 210, 24.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Gregg Zaun','TOR','Catcher', 70, 190, 35.88);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jason Phillips','TOR','Catcher', 73, 177, 30.42);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Lyle Overbay','TOR','First Baseman', 74, 227, 30.09);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Russ Adams','TOR','Second Baseman', 73, 180, 26.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Aaron Hill','TOR','Second Baseman', 71, 195, 24.94);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jason Smith','TOR','Second Baseman', 75, 199, 29.6);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'John McDonald','TOR','Shortstop', 71, 175, 32.43);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Royce Clayton','TOR','Shortstop', 72, 185, 37.16);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Troy Glaus','TOR','Third Baseman', 77, 240, 30.57);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'John Hattig','TOR','Third Baseman', 74, 210, 27.01);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Reed Johnson','TOR','Outfielder', 70, 180, 30.23);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Alex Rios','TOR','Outfielder', 77, 194, 26.03);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Vernon Wells','TOR','Outfielder', 73, 225, 28.23);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Frank Thomas','TOR','Designated Hitter', 77, 275, 38.76);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Adam Lind','TOR','Designated Hitter', 74, 195, 23.62);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Shaun Marcum','TOR','Starting Pitcher', 72, 180, 25.21);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Casey Janssen','TOR','Starting Pitcher', 76, 205, 25.45);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Gustavo Chacin','TOR','Starting Pitcher', 71, 193, 26.24);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'A.J.Burnett','TOR','Starting Pitcher', 76, 230, 30.15);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Roy Halladay','TOR','Starting Pitcher', 78, 230, 29.8);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'John Thomson','TOR','Starting Pitcher', 75, 220, 33.41);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Tomo Ohka','TOR','Starting Pitcher', 73, 200, 30.95);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'B.J.Ryan','TOR','Relief Pitcher', 78, 249, 31.17);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Scott Downs','TOR','Relief Pitcher', 74, 190, 30.95);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Brian Tallet','TOR','Relief Pitcher', 79, 208, 29.44);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Matt Roney','TOR','Relief Pitcher', 75, 245, 27.14);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Tracy Thorpe','TOR','Relief Pitcher', 76, 250, 26.21);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jean Machi','TOR','Relief Pitcher', 72, 160, 24.08);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Brandon League','TOR','Relief Pitcher', 75, 192, 23.96);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Dustin McGowan','TOR','Relief Pitcher', 75, 220, 24.94);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason Frasor','TOR','Relief Pitcher', 70, 170, 29.56);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Francisco Rosario','TOR','Relief Pitcher', 72, 197, 26.42);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Davis Romero','TOR','Relief Pitcher', 70, 155, 23.92);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jeremy Accardo','TOR','Relief Pitcher', 74, 190, 25.23);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mike Redmond','MIN','Catcher', 71, 200, 35.82);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joe Mauer','MIN','Catcher', 76, 220, 23.87);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chris Heintz','MIN','Catcher', 73, 210, 32.57);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Justin Morneau','MIN','First Baseman', 76, 228, 25.79);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Luis Castillo','MIN','Second Baseman', 71, 190, 31.47);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Alexi Casilla','MIN','Second Baseman', 69, 160, 22.61);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Alejandro Machado','MIN','Second Baseman', 72, 184, 24.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason Bartlett','MIN','Shortstop', 72, 180, 27.33);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Luis Rodriguez','MIN','Third Baseman', 69, 180, 26.67);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jeff Cirillo','MIN','Third Baseman', 73, 200, 37.43);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Nick Punto','MIN','Third Baseman', 69, 176, 29.31);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason Tyner','MIN','Outfielder', 73, 160, 29.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Michael Cuddyer','MIN','Outfielder', 74, 222, 27.93);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Torii Hunter','MIN','Outfielder', 74, 211, 31.62);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Lew Ford','MIN','Outfielder', 72, 195, 30.55);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jason Kubel','MIN','Outfielder', 71, 200, 24.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Josh Rabe','MIN','Designated Hitter', 74, 210, 28.38);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Rondell White','MIN','Designated Hitter', 73, 225, 35.02);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ramon Ortiz','MIN','Starting Pitcher', 72, 175, 33.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Johan Santana','MIN','Starting Pitcher', 72, 206, 27.97);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Carlos Silva','MIN','Starting Pitcher', 76, 240, 27.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Matt Garza','MIN','Starting Pitcher', 76, 185, 23.26);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Boof Bonser','MIN','Starting Pitcher', 76, 260, 25.38);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Francisco Liriano','MIN','Starting Pitcher', 74, 185, 23.35);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Scott Baker','MIN','Starting Pitcher', 76, 221, 25.45);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Pat Neshek','MIN','Relief Pitcher', 75, 205, 26.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Glen Perkins','MIN','Relief Pitcher', 71, 200, 24);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Julio DePaula','MIN','Relief Pitcher', 72, 170, 24.16);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Juan Rincon','MIN','Relief Pitcher', 71, 201, 28.1);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jesse Crain','MIN','Relief Pitcher', 73, 205, 25.65);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Matt Guerrier','MIN','Relief Pitcher', 75, 185, 28.58);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joe Nathan','MIN','Relief Pitcher', 76, 205, 32.27);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Dennys Reyes','MIN','Relief Pitcher', 75, 245, 29.86);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Brayan Pe?a','ATL','Catcher', 71, 220, 25.14);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Brian McCann','ATL','Catcher', 75, 210, 23.03);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Craig Wilson','ATL','First Baseman', 74, 220, 30.25);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chris Woodward','ATL','Second Baseman', 72, 185, 30.67);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Pete Orr','ATL','Second Baseman', 73, 175, 27.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Martin Prado','ATL','Second Baseman', 73, 170, 23.34);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Tony Pe?a','ATL','Shortstop', 73, 180, 25.94);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Edgar Renteria','ATL','Shortstop', 73, 200, 31.56);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chipper Jones','ATL','Third Baseman', 76, 210, 34.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Willy Aybar','ATL','Third Baseman', 72, 175, 23.98);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Jeff Francoeur','ATL','Outfielder', 76, 220, 23.14);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Matt Diaz','ATL','Outfielder', 73, 206, 28.99);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Kelly Johnson','ATL','Outfielder', 73, 180, 25.02);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Andruw Jones','ATL','Outfielder', 73, 210, 29.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ryan Langerhans','ATL','Outfielder', 75, 195, 27.03);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Scott Thorman','ATL','Outfielder', 75, 200, 25.15);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'T.J.Bohn','ATL','Outfielder', 77, 200, 27.12);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Tim Hudson','ATL','Starting Pitcher', 73, 164, 31.63);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jonathan Johnson','ATL','Starting Pitcher', 72, 180, 32.62);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'John Smoltz','ATL','Starting Pitcher', 75, 220, 39.79);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mike Hampton','ATL','Starting Pitcher', 70, 195, 34.47);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Kyle Davies','ATL','Starting Pitcher', 74, 205, 23.47);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chuck James','ATL','Starting Pitcher', 72, 170, 25.31);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Phil Stockman','ATL','Relief Pitcher', 80, 240, 27.1);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Macay McBride','ATL','Relief Pitcher', 71, 210, 24.35);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Joey Devine','ATL','Relief Pitcher', 71, 195, 23.45);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Peter Moylan','ATL','Relief Pitcher', 74, 200, 28.24);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mike Gonzalez','ATL','Relief Pitcher', 74, 205, 28.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Lance Cormier','ATL','Relief Pitcher', 73, 192, 26.53);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Blaine Boyer','ATL','Relief Pitcher', 75, 190, 25.64);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Manny Acosta','ATL','Relief Pitcher', 76, 170, 25.83);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Bob Wickman','ATL','Relief Pitcher', 73, 240, 38.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Tanyon Sturtze','ATL','Relief Pitcher', 77, 200, 36.38);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Oscar Villarreal','ATL','Relief Pitcher', 72, 205, 25.27);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Rafael Soriano','ATL','Relief Pitcher', 73, 175, 27.2);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Chad Paronto','ATL','Relief Pitcher', 77, 250, 31.59);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Tyler Yates','ATL','Relief Pitcher', 76, 220, 29.56);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Henry Blanco','CHC','Catcher', 71, 224, 35.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Michael Barrett','CHC','Catcher', 75, 210, 30.35);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Geovany Soto','CHC','Catcher', 73, 195, 24.11);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Scott Moore','CHC','First Baseman', 74, 180, 23.29);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Derrek Lee','CHC','First Baseman', 77, 245, 31.48);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ryan Theriot','CHC','Second Baseman', 71, 175, 27.23);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ronny Cedeno','CHC','Shortstop', 72, 180, 24.07);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Aramis Ramirez','CHC','Third Baseman', 73, 215, 28.68);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Cesar Izturis','CHC','Third Baseman', 69, 175, 27.05);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Alfonso Soriano','CHC','Outfielder', 73, 180, 31.15);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jacque Jones','CHC','Outfielder', 70, 195, 31.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Daryle Ward','CHC','Outfielder', 74, 230, 31.68);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Cliff Floyd','CHC','Outfielder', 76, 230, 34.23);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Mark DeRosa','CHC','Outfielder', 73, 205, 32.01);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Matt Murton','CHC','Outfielder', 73, 215, 25.41);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Buck Coats','CHC','Outfielder', 75, 195, 24.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Angel Pagan','CHC','Outfielder', 73, 180, 25.66);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Sean Marshall','CHC','Starting Pitcher', 79, 205, 24.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Carlos Marmol','CHC','Starting Pitcher', 74, 180, 24.38);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ryan O Malley',
     'CHC',
     'Starting Pitcher',
@@ -4821,7 +4823,7 @@ VALUES( 'Ryan O Malley',
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4835,7 +4837,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4849,7 +4851,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4863,7 +4865,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4877,7 +4879,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4891,7 +4893,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4905,7 +4907,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4919,7 +4921,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4933,7 +4935,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4947,7 +4949,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4961,7 +4963,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4975,7 +4977,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -4989,7 +4991,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5003,7 +5005,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5017,7 +5019,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5031,7 +5033,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5045,7 +5047,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5059,7 +5061,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5073,7 +5075,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5087,7 +5089,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5101,7 +5103,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5115,7 +5117,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5129,7 +5131,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5143,7 +5145,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5157,7 +5159,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5171,7 +5173,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5185,7 +5187,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5199,7 +5201,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5213,7 +5215,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5227,7 +5229,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5241,7 +5243,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5255,7 +5257,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5269,7 +5271,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5283,7 +5285,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5297,7 +5299,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5311,7 +5313,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5325,7 +5327,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5339,7 +5341,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5353,7 +5355,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5367,7 +5369,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5381,7 +5383,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5395,7 +5397,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5409,7 +5411,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5423,7 +5425,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5437,7 +5439,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5451,7 +5453,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5465,7 +5467,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5479,7 +5481,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5493,7 +5495,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5507,7 +5509,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5521,7 +5523,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5535,7 +5537,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5549,7 +5551,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5563,7 +5565,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5577,7 +5579,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5591,7 +5593,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5605,7 +5607,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5619,7 +5621,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5633,7 +5635,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5647,7 +5649,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5661,7 +5663,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5675,7 +5677,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5689,7 +5691,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5703,7 +5705,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5717,7 +5719,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5731,7 +5733,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5745,7 +5747,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5759,7 +5761,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5773,7 +5775,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5787,7 +5789,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5801,7 +5803,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5815,7 +5817,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5829,7 +5831,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5843,7 +5845,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5857,7 +5859,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5871,7 +5873,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5885,7 +5887,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5899,7 +5901,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5913,7 +5915,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5927,7 +5929,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5941,7 +5943,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5955,7 +5957,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5969,7 +5971,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5983,7 +5985,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -5997,7 +5999,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6011,7 +6013,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6025,7 +6027,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6039,7 +6041,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6053,7 +6055,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6067,7 +6069,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6081,7 +6083,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6095,7 +6097,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6109,7 +6111,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6123,7 +6125,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6137,7 +6139,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6151,7 +6153,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6165,7 +6167,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6179,7 +6181,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6193,7 +6195,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6207,7 +6209,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6221,7 +6223,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6235,7 +6237,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6249,7 +6251,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6263,7 +6265,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6277,7 +6279,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6291,7 +6293,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6305,7 +6307,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6319,7 +6321,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6333,7 +6335,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6347,7 +6349,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6361,7 +6363,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6375,7 +6377,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6389,7 +6391,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6403,7 +6405,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6417,7 +6419,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6431,7 +6433,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6445,7 +6447,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6459,7 +6461,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6473,7 +6475,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6487,7 +6489,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6501,7 +6503,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6515,7 +6517,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6529,7 +6531,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6543,7 +6545,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6557,7 +6559,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6571,7 +6573,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6585,7 +6587,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6599,7 +6601,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6613,7 +6615,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6627,7 +6629,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6641,7 +6643,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6655,7 +6657,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6669,7 +6671,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6683,7 +6685,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6697,7 +6699,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6711,7 +6713,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6725,7 +6727,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6739,7 +6741,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6753,7 +6755,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6767,7 +6769,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6781,7 +6783,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6795,7 +6797,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6809,7 +6811,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6823,7 +6825,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6837,7 +6839,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6851,7 +6853,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6865,7 +6867,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6879,7 +6881,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6893,7 +6895,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6907,7 +6909,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6921,7 +6923,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6935,7 +6937,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6949,7 +6951,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6963,7 +6965,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6977,7 +6979,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -6991,7 +6993,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7005,7 +7007,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7019,7 +7021,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7033,7 +7035,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7047,7 +7049,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7061,7 +7063,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7075,7 +7077,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7089,7 +7091,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7103,7 +7105,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7117,7 +7119,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7131,7 +7133,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7145,7 +7147,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7159,7 +7161,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7173,7 +7175,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7187,7 +7189,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7201,7 +7203,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7215,7 +7217,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7229,7 +7231,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7243,7 +7245,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7257,7 +7259,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7271,7 +7273,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7285,7 +7287,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7299,7 +7301,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7313,7 +7315,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7327,7 +7329,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7341,7 +7343,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7355,7 +7357,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7369,7 +7371,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7383,7 +7385,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7397,7 +7399,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7411,7 +7413,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7425,7 +7427,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7439,7 +7441,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7453,7 +7455,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7467,7 +7469,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7481,7 +7483,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7495,7 +7497,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7509,7 +7511,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7523,7 +7525,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7537,7 +7539,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7551,7 +7553,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7565,7 +7567,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7579,7 +7581,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7593,7 +7595,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7607,7 +7609,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7621,7 +7623,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7635,7 +7637,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7649,7 +7651,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7663,7 +7665,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7677,7 +7679,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7691,7 +7693,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7705,7 +7707,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7719,7 +7721,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7733,7 +7735,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7747,7 +7749,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7761,7 +7763,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7775,7 +7777,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7789,7 +7791,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7803,7 +7805,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7817,7 +7819,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7831,7 +7833,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7845,7 +7847,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7859,7 +7861,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7873,7 +7875,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7887,7 +7889,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7901,7 +7903,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7915,7 +7917,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7929,7 +7931,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7943,7 +7945,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7957,7 +7959,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7971,7 +7973,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7985,7 +7987,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -7999,7 +8001,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8013,7 +8015,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8027,7 +8029,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8041,7 +8043,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8055,7 +8057,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8069,7 +8071,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8083,7 +8085,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8097,7 +8099,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8111,7 +8113,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8125,7 +8127,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8139,7 +8141,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8153,7 +8155,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8167,7 +8169,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8181,7 +8183,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8195,7 +8197,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8209,7 +8211,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8223,7 +8225,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8237,7 +8239,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8251,7 +8253,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8265,7 +8267,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8279,7 +8281,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8293,7 +8295,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8307,7 +8309,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8321,7 +8323,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8335,7 +8337,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8349,7 +8351,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8363,7 +8365,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8377,7 +8379,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8391,7 +8393,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8405,7 +8407,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8419,7 +8421,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8433,7 +8435,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8447,7 +8449,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8461,7 +8463,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8475,7 +8477,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8489,7 +8491,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8503,7 +8505,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8517,7 +8519,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8531,7 +8533,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8545,7 +8547,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8559,7 +8561,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8573,7 +8575,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8587,7 +8589,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8601,7 +8603,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8615,7 +8617,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8629,7 +8631,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8643,7 +8645,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8657,7 +8659,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8671,7 +8673,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8685,7 +8687,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8699,7 +8701,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8713,7 +8715,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8727,7 +8729,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8741,7 +8743,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8755,7 +8757,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8769,7 +8771,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8783,7 +8785,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8797,7 +8799,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8811,7 +8813,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8825,7 +8827,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8839,7 +8841,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8853,7 +8855,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8867,7 +8869,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8881,7 +8883,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8895,7 +8897,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8909,7 +8911,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8923,7 +8925,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8937,7 +8939,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8951,7 +8953,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8965,7 +8967,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8979,7 +8981,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -8993,7 +8995,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9007,7 +9009,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9021,7 +9023,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9035,7 +9037,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9049,7 +9051,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9063,7 +9065,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9077,7 +9079,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9091,7 +9093,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9105,7 +9107,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9119,7 +9121,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9133,7 +9135,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9147,7 +9149,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9161,7 +9163,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9175,7 +9177,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9189,7 +9191,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9203,7 +9205,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9217,7 +9219,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9231,7 +9233,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9245,7 +9247,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9259,7 +9261,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9273,7 +9275,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9287,7 +9289,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9301,7 +9303,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9315,7 +9317,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9329,7 +9331,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9343,7 +9345,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9357,7 +9359,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9371,7 +9373,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9385,7 +9387,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9399,7 +9401,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9413,7 +9415,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9427,7 +9429,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9441,7 +9443,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9455,7 +9457,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9469,7 +9471,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9483,7 +9485,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9497,7 +9499,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9511,7 +9513,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9525,7 +9527,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9539,7 +9541,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9553,7 +9555,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9567,7 +9569,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9581,7 +9583,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9595,7 +9597,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9609,7 +9611,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9623,7 +9625,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9637,7 +9639,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9651,7 +9653,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9665,7 +9667,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9679,7 +9681,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9693,7 +9695,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9707,7 +9709,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9721,7 +9723,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9735,7 +9737,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9749,7 +9751,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9763,7 +9765,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9777,7 +9779,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9791,7 +9793,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9805,7 +9807,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9819,7 +9821,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9833,7 +9835,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9847,7 +9849,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9861,7 +9863,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9875,7 +9877,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9889,7 +9891,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9903,7 +9905,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9917,7 +9919,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9931,7 +9933,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9945,7 +9947,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9959,7 +9961,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9973,7 +9975,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -9987,7 +9989,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10001,7 +10003,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10015,7 +10017,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10029,7 +10031,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10043,7 +10045,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10057,7 +10059,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10071,7 +10073,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10085,7 +10087,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10099,7 +10101,7 @@ VALUES
   );
 /* INSERT QUERY */
 INSERT INTO tblPlayersImport(
-  Name,
+  fldName,
   fldTeam,
   fldPosition,
   fldHeight,
@@ -10113,340 +10115,340 @@ VALUES
     );
 
 
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Emiliano Fruto',
                                                                 'WAS','Relief Pitcher', 75, 235, 22.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Chris Schroder',
                                                             'WAS','Relief Pitcher', 75, 210, 28.53);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Brett Campbell',
                                                                 'WAS','Relief Pitcher', 72, 170, 25.37);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Beltran Perez',
                                                             'WAS','Relief Pitcher', 74, 180, 25.35);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Levale Speigner',
                                                             'WAS','Relief Pitcher', 71, 170, 26.43);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jason Bergmann',
                                                                             'WAS','Relief Pitcher', 76, 190, 25.43);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Saul Rivera',
                                                                 'WAS','Relief Pitcher', 71, 150, 29.23);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Chris Booker',
                                                                     'WAS','Relief Pitcher', 75, 230, 30.22);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Micah Bowie',
                                                                 'WAS','Relief Pitcher', 76, 203, 32.3);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jon Rauch',
                                                                 'WAS','Relief Pitcher', 83, 260, 28.42);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jerome Williams',
                                                                     'WAS','Relief Pitcher', 75, 246, 25.24);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Luis Ayala','WAS',
                                                                 'Relief Pitcher', 74, 186, 29.13);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Ryan Wagner','WAS',
                                                             'Relief Pitcher', 76, 210, 24.63);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Chad Cordero',
                                                         'WAS','Relief Pitcher', 72, 198, 24.95);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Humberto Cota',
                                                             'PIT','Catcher', 72, 210, 28.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Ronny Paulino',
                                                     'PIT','Catcher', 75, 215, 25.86);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Adam LaRoche',
                                         'PIT','First Baseman', 75, 180, 27.32);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Ryan Doumit',
                                         'PIT','First Baseman', 72, 200, 25.91);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Brad Eldred',
                                                         'PIT','First Baseman', 77, 245, 26.63);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jose Castillo',
                                             'PIT','Second Baseman', 73, 200, 25.95);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jack Wilson',
                                             'PIT','Shortstop', 72, 192, 29.17);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Freddy Sanchez',
                                 'PIT','Third Baseman', 70, 192, 29.19);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jason Bay','PIT',
                                 'Outfielder', 74, 200, 28.44);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jose Bautista',
                                             'PIT','Outfielder', 72, 192, 26.36);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Xavier Nady',
                                     'PIT','Outfielder', 74, 205, 28.29);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jody Gerut',
                                             'PIT','Outfielder', 72, 190, 29.45);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Nate McLouth',
                                                     'PIT','Outfielder', 71, 186, 25.34);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Chris Duffy',
                                                     'PIT','Outfielder', 70, 170, 26.86);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Rajai Davis',
                                                 'PIT','Outfielder', 71, 197, 26.36);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Shane Youman',
                                                 'PIT','Starting Pitcher', 76, 219, 27.39);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Yoslan Herrera',
                                             'PIT','Starting Pitcher', 74, 200, 25.84);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Josh Shortslef',
                                         'PIT','Starting Pitcher', 76, 220, 25.08);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Zach Duke',
                                             'PIT','Starting Pitcher', 74, 207, 23.87);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Paul Maholm',
                                     'PIT','Starting Pitcher', 74, 225, 24.68);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Tom Gorzelanny',
                                         'PIT','Starting Pitcher', 74, 207, 24.64);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Shawn Chacon',
                                         'PIT','Starting Pitcher', 75, 212, 29.19);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Tony Armas Jr.',
                                                 'PIT','Starting Pitcher', 75, 225, 28.84);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Ian Snell',
                                     'PIT','Starting Pitcher', 71, 170, 25.33);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Sean Burnett',
                                     'PIT','Starting Pitcher', 71, 190, 24.45);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'John Grabow',
                             'PIT','Relief Pitcher', 74, 210, 28.32);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Marty McLeary',
                                             'PIT','Relief Pitcher', 77, 230, 32.34);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Salomon Torres',
                                     'PIT','Relief Pitcher', 71, 210, 34.97);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Damaso Marte',
                                 'PIT','Relief Pitcher', 74, 200, 32.04);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Matt Capps',
                                 'PIT','Relief Pitcher', 75, 238, 23.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Josh Sharpless',
                         'PIT','Relief Pitcher', 77, 234, 26.09);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Bryan Bullington',
                                                 'PIT','Relief Pitcher', 76, 222, 26.41);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jonah Bayliss',
                                     'PIT','Relief Pitcher', 74, 200, 26.55);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Brian Rogers',
                                     'PIT','Relief Pitcher', 76, 190, 24.62);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Juan Perez',
                                 'PIT','Relief Pitcher', 72, 170, 28.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Bengie Molina',
                                 'SF','Catcher', 71, 220, 32.61);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Eliezer Alfonzo',
                                                     'SF','Catcher', 72, 223, 28.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Lance Niekro',
                                         'SF','First Baseman', 75, 210, 28.08);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Mark Sweeney',
                                         'SF','First Baseman', 73, 215, 37.34);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Ray Durham',
                                                 'SF','Second Baseman', 68, 196, 35.25);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Kevin Frandsen',
                                             'SF','Second Baseman', 72, 175, 24.77);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Omar Vizquel',
                                         'SF','Shortstop', 69, 175, 39.85);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Rich Aurilia',
                                                 'SF','Third Baseman', 73, 189, 35.49);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Pedro Feliz',
                                                     'SF','Third Baseman', 73, 205, 31.84);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Todd Linden',
                                             'SF','Outfielder', 75, 210, 26.67);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Dave Roberts',
                                             'SF','Outfielder', 70, 180, 34.75);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jason Ellison',
                                                     'SF','Outfielder', 70, 180, 28.91);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Randy Winn',
                                             'SF','Outfielder', 74, 197, 32.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Ryan Klesko',
                                                 'SF','Outfielder', 75, 220, 35.72);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Barry Bonds',
                                             'SF','Outfielder', 74, 228, 42.6);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Fred Lewis',
                                                         'SF','Outfielder', 74, 190, 26.22);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jonathan Sanchez',
                                         'SF','Starting Pitcher', 74, 165, 24.28);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Matt Cain','SF',
                                                 'Starting Pitcher', 75, 216, 22.41);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Matt Morris',
                                         'SF','Starting Pitcher', 77, 220, 32.56);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Russ Ortiz',
                                     'SF','Starting Pitcher', 73, 208, 32.74);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Noah Lowry',
                                                 'SF','Starting Pitcher', 74, 210, 26.39);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Barry Zito',
                                             'SF','Starting Pitcher', 76, 215, 28.8);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Vinnie Chulk',
                                                                         'SF','Relief Pitcher', 74, 195, 28.2);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Kevin Correia',
                                                     'SF','Relief Pitcher', 75, 200, 26.52);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Steve Kline',
                                     'SF','Relief Pitcher', 73, 215, 34.52);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Armando Benitez',
                                 'SF','Relief Pitcher', 76, 229, 34.32);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Scott Munter',
                                             'SF','Relief Pitcher', 78, 240, 26.98);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jack Taschner',
                                         'SF','Relief Pitcher', 75, 207, 28.86);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Brian Wilson',
                                                                 'SF','Relief Pitcher', 73, 205, 24.96);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Merkin Valdez',
                                             'SF','Relief Pitcher', 77, 208, 25.3);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Brad Hennessey',
                                             'SF','Relief Pitcher', 74, 185, 27.06);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Billy Sadler',
                                 'SF','Relief Pitcher', 72, 190, 25.44);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Pat Misch','SF',
                                                         'Relief Pitcher', 74, 170, 25.53);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Gary Bennett',
                                                 'STL','Catcher', 72, 208, 34.87);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Yadier Molina',
                                                     'STL','Catcher', 71, 225, 24.63);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'John Nelson',
                                                 'STL','First Baseman', 73, 190, 27.99);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Albert Pujols',
                                                                 'STL','First Baseman', 75, 225, 27.12);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Adam Kennedy',
                                                 'STL','Second Baseman', 73, 185, 31.14);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Aaron Miles',
                                                     'STL','Second Baseman', 67, 180, 30.21);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'David Eckstein',
                                                 'STL','Shortstop', 67, 165, 32.11);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Scott Rolen',
                                                     'STL','Third Baseman', 76, 240, 31.91);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Scott Spiezio',
                                                         'STL','Third Baseman', 74, 220, 34.44);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Jim Edmonds',
                                                     'STL','Outfielder', 73, 212, 36.68);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'So Taguchi',
                                                         'STL','Outfielder', 70, 163, 37.66);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Juan Encarnacion',
                                                         'STL','Outfielder', 75, 215, 30.98);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Skip Schumaker',
                                                     'STL','Outfielder', 70, 175, 27.07);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'John Rodriguez',
                                                         'STL','Outfielder', 72, 205, 29.11);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Chris Duncan',
 
                                                                     'STL','Outfielder', 77, 210, 25.82);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Adam Wainwright',
                                                     'STL','Starting Pitcher', 79, 205, 25.5);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Mark Mulder',
                                                             'STL','Starting Pitcher', 78, 208, 29.57);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Anthony Reyes',
                                                 'STL','Starting Pitcher', 74, 215, 25.37);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Ryan Franklin',
                                                 'STL','Starting Pitcher', 75, 180, 33.99);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Kip Wells',
                                                             'STL','Starting Pitcher', 75, 200, 29.86);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Chris Carpenter',
                                                         'STL','Starting Pitcher', 78, 230, 31.84);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Russ Springer','STL','Relief Pitcher', 76, 211, 38.31);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Jason Isringhausen','STL','Relief Pitcher', 75, 230, 34.48);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Ricardo Rincon','STL','Relief Pitcher', 69, 190, 36.88);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Braden Looper','STL','Relief Pitcher', 75, 220, 32.34);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Randy Flores','STL','Relief Pitcher', 72, 180, 31.58);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
 VALUES( 'Josh Hancock','STL','Relief Pitcher', 75, 205, 28.89);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Brad Thompson',
                                                                         'STL','Relief Pitcher', 73, 190, 25.08);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Tyler Johnson',
                                                             'STL','Relief Pitcher', 74, 180, 25.73);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Chris Narveson',
                                                         'STL','Relief Pitcher', 75, 205, 25.19);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge)
  VALUES( 'Randy Keisler',
                                                         'STL','Relief Pitcher', 75, 190, 31.01);
-/* INSERT QUERY */INSERT INTO tblPlayersImport(Name,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
+/* INSERT QUERY */INSERT INTO tblPlayersImport(fldName,fldTeam,fldPosition,fldHeight,fldWeight,fldAge) 
 VALUES( 'Josh Kinney',
                                             'STL','Relief Pitcher', 73, 195, 27.92);
